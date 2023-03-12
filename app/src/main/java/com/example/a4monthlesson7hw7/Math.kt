@@ -35,10 +35,13 @@ class Math {
             result = "Введите целые числа"
         } else if (b == "0" || a == "0") {
             result = "На ноль делить нельзя"
+        }else if (((a.toDouble() / b.toDouble()) % 1).toString() == "0.0"){
+            result = (a.toInt() / b.toInt()).toString()
         } else {
             result = "Вы обязаны ввести числа"
         }
 
         return result
+
     }
 }
