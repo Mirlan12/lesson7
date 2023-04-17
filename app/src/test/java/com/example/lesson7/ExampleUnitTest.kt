@@ -1,4 +1,4 @@
-package com.example.a4monthlesson7hw7
+package com.example.lesson7
 
 import org.junit.Test
 

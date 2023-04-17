@@ -1,10 +1,7 @@
-package com.example.a4monthlesson7hw7
+package com.example.lesson7
 
-import androidx.core.text.isDigitsOnly
 
 class Math {
-
-    val integerChars = '0'..'9'
 
     //сложение
     fun add(a: String, b: String): String {
@@ -21,11 +18,8 @@ class Math {
         return result
     }
 
-//    fun String.isInteger() = this.all { it in integerChars }
-
     fun String.isInteger() = this.toIntOrNull()?.let { true } ?: false
 
-    //деление
     fun divide(a: String, b: String): String {
         var result = ""
 

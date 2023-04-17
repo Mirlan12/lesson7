@@ -1,4 +1,4 @@
-package com.example.a4monthlesson7hw7
+package com.example.lesson7
 
 import junit.framework.Assert.assertEquals
 import org.junit.After
@@ -59,7 +59,6 @@ class MathTest {
         assertEquals("На ноль делить нельзя", math?.divide("2", "0"))
     }
 
-    //дзшка: реализовать этот тест
     @Test
     fun simpleNotNullNumberDivide() {
         assertEquals("1.25", math?.divide("10", "8"))

@@ -1,4 +1,4 @@
-package com.example.a4monthlesson7hw7
+package com.example.lesson7
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

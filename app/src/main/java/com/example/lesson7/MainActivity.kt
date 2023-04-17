@@ -1,8 +1,8 @@
-package com.example.a4monthlesson7hw7
+package com.example.lesson7
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.a4monthlesson7hw7.databinding.ActivityMainBinding
+import com.example.lesson7.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
